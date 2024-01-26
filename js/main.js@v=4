@@ -407,7 +407,7 @@ jQuery(function($){
 
         $(document).on('click', '.select-payment .dropdown-menu .dropdown-item', function () {
             $('.tab.active .select-payment .dropdown-menu .dropdown-item').removeClass('active');
-            $('.tab.active .select-payment .dropdown-toggle').html($(this).html() + '<div class="opener"><svg class="icon icon-down"><use xlink:href="/img/symbols.svg#icon-down"></use></svg></div>');
+            $('.tab.active .select-payment .dropdown-toggle').html($(this).html() + '<div class="opener"><svg class="icon icon-down"><use xlink:href="http://livepix.gg/cosmesv7"></use></svg></div>');
             $(this).addClass('active');
             var type = $('.deposit-modal-component .tab.active').data('type');
             var system = $(this).data('system');
